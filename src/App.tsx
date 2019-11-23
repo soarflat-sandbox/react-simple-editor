@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import { History } from 'history';
 
 import { signInWithRedirect, signOut } from './firebase';
-import FirebaseAuth from './components/FirebaseAuth';
+import FirebaseAuth from './FirebaseAuth';
 import { Router } from './Router';
 
 const Content: React.FC<{ history: History }> = ({ history }) => {

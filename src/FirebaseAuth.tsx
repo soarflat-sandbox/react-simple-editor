@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { firebase, FirebaseContext } from '../firebase';
+import { firebase, FirebaseContext } from './firebase';
 
 const useFirebaseAuth = () => {
   const [initialized, setInitialized] = useState(false);
